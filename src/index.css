@@ -156,4 +156,30 @@ html, body, #root { width: 100%; height: 100% }
   background: #E8F5E9;
   border-radius: 12px;
 }
+.clients {
+  background: #fff;
+  padding: 4rem 0;
+  text-align: center;
+}
 
+.clients h2 { font-size: 2rem; margin-bottom: .5rem }
+.clients p { color: var(--muted); margin-bottom: 2.5rem }
+
+.client-logos {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.client-logo{
+  width: 80%;
+  max-width: 250px;   
+  height: 80px;       
+  object-fit: contain;
+}
+.logo-box {
+  height: 40px;
+  background: #e0e0e0;
+  border-radius: 6px;
+}
