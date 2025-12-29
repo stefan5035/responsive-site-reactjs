@@ -17,17 +17,18 @@ a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
+  color: inherit 
 }
+
 a:hover {
   color: #535bf2;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  background: none;
+  color: none;
+  line-height: 1.6;
 }
 
 h1 {
@@ -65,4 +66,62 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+* { box-sizing: border-box; margin: 0; padding: 0 }
+html, body, #root { width: 100%; height: 100% }
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  font-size: .95rem;
+  color: #555;
+}
+
+.nav-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.login { color: green; font-weight: 500 }
+
+.btn {
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn.primary {
+  background: green;
+  color: #fff;
+  padding: .6rem 1.25rem;
+  border-radius: 6px;
 }
