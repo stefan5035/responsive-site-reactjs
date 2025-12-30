@@ -4,6 +4,8 @@ import Client from './components/client'
 import Community from './components/comm'
 import Feature from './components/ftr'
 import Stats from './components/stat'
+import Design from './components/dsg'
+
 export default function App() {
   return (
     <div className="app">
@@ -13,6 +15,7 @@ export default function App() {
       <Community />
       <Feature />
       <Stats />
+      <Design />
    </div>
   )
 }
