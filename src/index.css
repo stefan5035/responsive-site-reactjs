@@ -245,3 +245,20 @@ html, body, #root { width: 100%; height: 100% }
 
 .stat strong { font-size: 1.5rem }
 .stat span { color: grey }
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.stat-icon {
+  width: 48px;
+  height: 48px;
+  background: #E8F5E9;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
