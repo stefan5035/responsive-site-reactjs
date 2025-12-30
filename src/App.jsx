@@ -5,7 +5,7 @@ import Community from './components/comm'
 import Feature from './components/ftr'
 import Stats from './components/stat'
 import Design from './components/dsg'
-
+import Testimony from './components/testimony'
 export default function App() {
   return (
     <div className="app">
@@ -16,6 +16,7 @@ export default function App() {
       <Feature />
       <Stats />
       <Design />
+      <Testimony />
    </div>
   )
 }

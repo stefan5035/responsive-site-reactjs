@@ -147,7 +147,7 @@ html, body, #root { width: 100%; height: 100% }
 .hero h1 span { color: green }
 
 .hero p {
-  color: var(--muted);
+  color: lightgrey;
   margin-bottom: 1.5rem;
 }
 
@@ -163,7 +163,7 @@ html, body, #root { width: 100%; height: 100% }
 }
 
 .clients h2 { font-size: 2rem; margin-bottom: .5rem }
-.clients p { color: var(--muted); margin-bottom: 2.5rem }
+.clients p { color: lightgrey; margin-bottom: 2.5rem }
 
 .client-logos {
   display: grid;
@@ -205,7 +205,7 @@ html, body, #root { width: 100%; height: 100% }
   box-shadow: 4px 10px 30px rgba(0,0,0,0.08);
 }
 .card h3 { margin: 1rem 0 }
-.card p { color: var(--muted) }
+.card p { color: lightgrey }
 .feature {
   background: #fff;
   padding: 4rem 0;
@@ -269,4 +269,78 @@ html, body, #root { width: 100%; height: 100% }
   height: 600px;
   background: #E8F5E9;
   border-radius: 12px;
+}
+.testimonial {
+  background: #ddd;
+  padding: 4rem 0;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 2rem;
+}
+
+.testimonial-img {
+  height: 480px;
+  background: #111;
+  border-radius: 5px;
+}
+.testimonial strong{
+  color: green;
+  font-size: 20px;
+}
+
+.link { color: green; font-weight: 500 }
+.testimonial-content p {
+  margin-bottom: 1.5rem;
+}
+
+.author {
+  display: block;
+  margin-bottom: .25rem; 
+}
+
+.role {
+  display: block;
+  margin-bottom: 1.5rem;
+  color: grey;
+}
+.testimonial-logos {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.testimonial-logos img {
+  height: 32px;
+  object-fit: contain;
+  opacity: .7;
+}
+.testimonial-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.testimonial-logos {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.testimonial-logos img {
+  height: 32px;
+  object-fit: contain;
+  opacity: .7;
+}
+
+.testimonial-link {
+  color: green;
+  font-weight: 500;
+  white-space: nowrap;
 }
