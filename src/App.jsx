@@ -6,6 +6,7 @@ import Feature from './components/ftr'
 import Stats from './components/stat'
 import Design from './components/dsg'
 import Testimony from './components/testimony'
+import Blog from './components/blog'
 export default function App() {
   return (
     <div className="app">
@@ -17,6 +18,7 @@ export default function App() {
       <Stats />
       <Design />
       <Testimony />
+      <Blog />
    </div>
   )
 }
