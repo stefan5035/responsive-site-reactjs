@@ -7,6 +7,7 @@ import Stats from './components/stat'
 import Design from './components/dsg'
 import Testimony from './components/testimony'
 import Blog from './components/blog'
+import CTA from './components/cta'
 export default function App() {
   return (
     <div className="app">
@@ -19,6 +20,7 @@ export default function App() {
       <Design />
       <Testimony />
       <Blog />
+      <CTA />
    </div>
   )
 }
