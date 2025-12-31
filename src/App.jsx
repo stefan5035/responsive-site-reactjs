@@ -8,6 +8,7 @@ import Design from './components/dsg'
 import Testimony from './components/testimony'
 import Blog from './components/blog'
 import CTA from './components/cta'
+import Footer from './components/foot'
 export default function App() {
   return (
     <div className="app">
@@ -21,6 +22,7 @@ export default function App() {
       <Testimony />
       <Blog />
       <CTA />
+      <Footer />
    </div>
   )
 }
